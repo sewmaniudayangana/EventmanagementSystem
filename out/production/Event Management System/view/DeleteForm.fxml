@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DeleteFormController">
+    <children>
+        <Label alignment="CENTER_RIGHT" layoutX="86.0" layoutY="152.0" prefHeight="42.0" prefWidth="143.0" text="Employee Id : ">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="48.0" layoutY="238.0" prefHeight="42.0" prefWidth="180.0" text="Employee Name : ">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="16.0" layoutY="336.0" prefHeight="42.0" prefWidth="213.0" text="Employee Address : ">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="26.0" layoutY="419.0" prefHeight="42.0" prefWidth="205.0" text="Employee Contact : ">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtEmployeeName" layoutX="248.0" layoutY="242.0" prefHeight="42.0" prefWidth="353.0" />
+        <TextField fx:id="txtEmployeeAddress" layoutX="246.0" layoutY="336.0" prefHeight="42.0" prefWidth="353.0" />
+        <TextField fx:id="txtEmployeeContact" layoutX="246.0" layoutY="424.0" prefHeight="42.0" prefWidth="353.0" />
+        <Label alignment="CENTER" layoutX="99.0" layoutY="24.0" prefHeight="103.0" prefWidth="647.0" text="Employee Remove" underline="true">
+            <font>
+                <Font name="Eras Demi ITC" size="70.0" />
+            </font>
+        </Label>
+        <JFXButton layoutX="576.0" layoutY="525.0" onAction="#ConformOnAction" prefHeight="49.0" prefWidth="128.0" style="-fx-background-color: #e84118;" text="Conform" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+      <ComboBox fx:id="cmbEmpId" layoutX="248.0" layoutY="159.0" onAction="#deleteEmployeeOnAction" prefHeight="31.0" prefWidth="353.0" promptText="Select Employee" />
+    </children>
+</AnchorPane>

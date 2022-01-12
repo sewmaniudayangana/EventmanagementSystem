@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="specialCelebrating" prefHeight="563.0" prefWidth="907.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SpecialCelebratingController">
+   <children>
+      <ImageView fitHeight="565.0" fitWidth="539.0" layoutX="201.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/yimg_rI5jDja1wjssI0mIRp-576x768.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

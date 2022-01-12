@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="801.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EmployeeRegisterFormController">
+    <children>
+        <Label alignment="CENTER_RIGHT" layoutX="76.0" layoutY="142.0" prefHeight="42.0" prefWidth="143.0" text="Employee Id : ">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="38.0" layoutY="235.0" prefHeight="42.0" prefWidth="180.0" text="Employee Name : ">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="6.0" layoutY="331.0" prefHeight="42.0" prefWidth="213.0" text="Employee Address : ">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER_RIGHT" layoutX="16.0" layoutY="418.0" prefHeight="42.0" prefWidth="205.0" text="Employee Contact : ">
+            <font>
+                <Font name="System Bold" size="21.0" />
+            </font>
+        </Label>
+        <TextField fx:id="txtEmployeeId" layoutX="236.0" layoutY="141.0" prefHeight="42.0" prefWidth="353.0" />
+        <TextField fx:id="txtEmployeeName" layoutX="238.0" layoutY="239.0" prefHeight="42.0" prefWidth="353.0" />
+        <TextField fx:id="txtEmployeeAddress" layoutX="236.0" layoutY="331.0" prefHeight="42.0" prefWidth="353.0" />
+        <TextField fx:id="txtEmployeeContact" layoutX="236.0" layoutY="423.0" prefHeight="42.0" prefWidth="353.0" />
+        <Label alignment="CENTER" layoutX="89.0" layoutY="14.0" prefHeight="103.0" prefWidth="647.0" text="Employee Register" underline="true">
+            <font>
+                <Font name="Eras Demi ITC" size="70.0" />
+            </font>
+        </Label>
+        <JFXButton layoutX="566.0" layoutY="515.0" onAction="#registerOnAction" prefHeight="49.0" prefWidth="128.0" style="-fx-background-color: #32ff7e;" text="Register">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </JFXButton>
+    </children>
+</AnchorPane>

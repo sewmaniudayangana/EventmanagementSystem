@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="birthdayParty" prefHeight="480.0" prefWidth="867.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BirthdayPartyController">
+   <children>
+      <ImageView fitHeight="496.0" fitWidth="874.0" layoutX="7.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/ef0a22d1-5ff8-465e-b138-c1cee0390b3e.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

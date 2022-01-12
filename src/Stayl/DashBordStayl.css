@@ -1,0 +1,4 @@
+.DashBordContent{
+    -fx-background-color: linear-gradient(from 100% 50% to 50% 100%,#45aaf2,#be2edd);
+}
+
